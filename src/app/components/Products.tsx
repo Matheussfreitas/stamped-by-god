@@ -34,10 +34,10 @@ export default function Products({ id }: ProductsProps) {
       <div className="w-full max-w-6xl">
 
         <div className="mb-12">
-          <h1 className="text-4xl font-extrabold text-center mt-10 underline decoration-blue-400 decoration-2 underline-offset-8">
+          <h1 className="text-4xl font-pacifico font-extrabold text-center mt-10 underline decoration-blue-400 decoration-2 underline-offset-8">
             Nossos Produtos
           </h1>
-          <p className="text-center mt-4 text-lg text-neutral-600 max-w-2xl mx-auto">
+          <p className="text-center font-poppins mt-4 text-lg text-neutral-600 max-w-2xl mx-auto">
             Aqui estão alguns dos nossos produtos mais populares. Escolha o seu favorito e viva a experiência Stamped By God!
           </p>
         </div>

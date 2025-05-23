@@ -4,10 +4,10 @@ export default function Header() {
   const links = [
     { name: "Sobre", href: "#sobre" },
     { name: "Produtos", href: "#produtos" },
-    { name: "Contato", href: "#contato" },
+    { name: "Depoimentos", href: "#depoimentos" },
   ]
   return (
-    <header className="p-4 bg-neutral-100/95 text-black top-0 sticky z-50 border-b backdrop-blur-md">
+    <header className="p-4 bg-neutral-100/95 text-black top-0 sticky z-50 border-b backdrop-blur-md font-poppins">
       <div className="flex items-center justify-around">
         <div>
           <h1 className="text-2xl">Stamped By God</h1>

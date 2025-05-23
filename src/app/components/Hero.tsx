@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 interface HeroProps {
@@ -21,19 +20,14 @@ export default function Hero({ id }: HeroProps) {
       />
       <div className="absolute inset-0 flex flex-col justify-center items-center gap-8 z-10 bg-black/40">
 
-        <h1 className="text-center text-7xl flex flex-col text-white drop-shadow-lg">
+        <h1 className="text-center text-7xl font-poppins flex flex-col text-white drop-shadow-lg">
           <span className="font-bold">STAMPED</span>
           <span>BY GOD</span>
         </h1>
 
-        <div className="text-center text-2xl text-white drop-shadow-lg">
-          <p className="text-white">Loucos por surf</p>
-          <p className="text-white">Loucos por Stamped By God</p>
-        </div>
-
-        <div className="flex gap-4">
-          <Button variant="outline">Nossos Produtos</Button>
-          <Button variant="outline">Sobre Nós</Button>
+        <div className="text-center text-2xl font-poppins text-white drop-shadow-lg">
+          <p>Loucos por surf</p>
+          <p>Loucos por Stamped By God</p>
         </div>
 
       </div>
