@@ -26,7 +26,7 @@ export default function Hero({ id }: HeroProps) {
         </h1>
 
         <div className="text-center text-2xl font-poppins text-white drop-shadow-lg">
-          <p>Loucos por surf</p>
+          <p>Loucos por Surf</p>
           <p>Loucos por Stamped By God</p>
         </div>
 

@@ -18,18 +18,18 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           
           <div className="mb-4 md:mb-0">
-            <Link href="/">
+            <Link href="#inicio">
               <Image
-                src="/placeholder.svg"
+                src="/stamped-by-god-logo.png"
                 alt="Logo"
-                width={120}
-                height={40}
-                className="h-10 w-auto object-contain"
+                width={80}
+                height={80}
+                className="object-contain"
               />
             </Link>
           </div>
 
-          <div className="text-center mb-4 md:mb-0">
+          <div className="text-center mb-4 md:mt-5">
             <p className="text-sm text-slate-600">© {year} Todos os direitos reservados</p>
             <p className="text-sm text-slate-600 mt-1">
               Desenvolvido por <span className="font-medium">

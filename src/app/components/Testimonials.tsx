@@ -64,7 +64,7 @@ export default function Testimonials({ id }: TestimonialsProps) {
                     </svg>
                   ))}
                 </div>
-                <p className="text-gray-600 italic text-center flex-1">"{testimonial.quote}"</p>
+                <p className="text-gray-600 italic text-center flex-1">{testimonial.quote}</p>
                 <div className="flex items-center gap-4 pt-4">
                   <div className="h-12 w-12 rounded-full bg-gray-200 flex items-center justify-center text-gray-500 font-bold text-lg">
                     {testimonial.name.charAt(0)}
