@@ -37,10 +37,10 @@ export default function Products({ id }: ProductsProps) {
           <h1 className="text-4xl font-pacifico font-extrabold text-center mt-10 underline text-[#F2BC57] decoration-[#D95032] decoration-2 underline-offset-8">
             Nosso Quiver
           </h1>
-          <p className="text-center font-poppins mt-4 text-lg text-[#f5f5f5] max-w-2xl mx-auto">
+          <p className="text-center font-poppins mt-4 text-md md:text-lg text-[#f5f5f5] max-w-2xl mx-auto">
             Modelos Performance, Intermediários e Funboards.
           </p>
-          <p className="text-center font-poppins text-lg text-[#f5f5f5] max-w-2xl mx-auto">Escolha o seu favorito e viva a experiência Stamped By God!</p>
+          <p className="text-center font-poppins text-md md:text-lg text-[#f5f5f5] max-w-2xl mx-auto">Escolha o seu favorito e viva a experiência Stamped By God!</p>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center items-start">

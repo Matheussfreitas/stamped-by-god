@@ -6,8 +6,8 @@ interface TestimonialsProps {
 
 const testimonials = [
   {
-    name: "Pedro Paulo",
-    role: "Surfista Profissional",
+    name: "Douglas Pereira",
+    role: "Shaper",
     quote:
       "As pranchas da Stamped by God revolucionaram meu desempenho nas competições. Qualidade incomparável!",
   },
@@ -35,7 +35,7 @@ export default function Testimonials({ id }: TestimonialsProps) {
           <h2 className="text-4xl font-pacifico font-extrabold text-center text-[#F2BC57] underline decoration-[#D95032] decoration-2 underline-offset-8 mb-4">
             O Que Nossos Clientes Dizem
           </h2>
-          <p className="text-center font-poppins text-lg text-[#f5f5f5] max-w-2xl mx-auto">
+          <p className="text-center font-poppins text-md md:text-lg text-[#f5f5f5] max-w-2xl mx-auto">
             Experiências reais de surfistas que escolheram a Stamped by God
           </p>
         </div>

@@ -19,7 +19,7 @@ export default function About({ id }: AboutProps) {
           <h2 className="text-4xl text-[#F2BC57] font-pacifico font-extrabold mb-4 underline decoration-[#D95032] decoration-2 underline-offset-8">
             Sobre nós
           </h2>
-          <p className="text-lg text-[#f5f5f5] font-poppins max-w-2xl mb-6">
+          <p className="text-md md:text-lg text-[#f5f5f5] font-poppins max-w-2xl mb-6">
             A <span className="font-semibold">Stamped By God</span> é uma marca
             dedicada a oferecer pranchas de alta qualidade para surfistas de
             todos os níveis.

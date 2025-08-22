@@ -87,7 +87,7 @@ export default function HeroCarousel() {
                 </h1>
                 <p className="text-xl md:text-2xl lg:text-3xl font-light mb-8 opacity-90">
                   <span
-                    className="block opacity-0 text-[#D95032]"
+                    className="block opacity-0 font-bold text-[#D95032]"
                     style={{
                       animation:
                         currentSlide === index
@@ -122,7 +122,7 @@ export default function HeroCarousel() {
         onClick={prevSlide}
         onMouseEnter={() => setIsAutoPlaying(false)}
         onMouseLeave={() => setIsAutoPlaying(true)}
-        className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-20 hover:bg-opacity-30 text-white p-3 rounded-full transition-all duration-300 backdrop-blur-sm hover:scale-110 cursor-pointer"
+        className="hidden md:block absolute left-4 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-20 hover:bg-opacity-30 text-white p-3 rounded-full transition-all duration-300 backdrop-blur-sm hover:scale-110 cursor-pointer"
       >
         <ChevronLeft size={24} className="text-black" />
       </button>
@@ -131,7 +131,7 @@ export default function HeroCarousel() {
         onClick={nextSlide}
         onMouseEnter={() => setIsAutoPlaying(false)}
         onMouseLeave={() => setIsAutoPlaying(true)}
-        className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-20 hover:bg-opacity-30 text-white p-3 rounded-full transition-all duration-300 backdrop-blur-sm hover:scale-110 cursor-pointer"
+        className="hidden md:block absolute right-4 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-20 hover:bg-opacity-30 text-white p-3 rounded-full transition-all duration-300 backdrop-blur-sm hover:scale-110 cursor-pointer"
       >
         <ChevronRight size={24} className="text-black" />
       </button>
