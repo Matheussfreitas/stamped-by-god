@@ -16,7 +16,7 @@ const pacifico = Pacifico({
 
 export const metadata: Metadata = {
   title: "Stamped By God - Surfboards",
-  description: "Surfboards carimbados por Deus",
+  description: "Carimbados por Deus",
 };
 
 export default function RootLayout({

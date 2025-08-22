@@ -12,9 +12,9 @@ const testimonials = [
       "As pranchas da Stamped by God revolucionaram meu desempenho nas competições. Qualidade incomparável!",
   },
   {
-    name: "Marina Costa",
-    role: "Instrutora de Surf",
-    quote: "Uso os produtos há mais de 5 anos e nunca me decepcionei. A durabilidade é impressionante.",
+    name: "Luiz Pedro",
+    role: "Free Surfer",
+    quote: "Voltei a ter o prazer de surfar boas ondas com uma prancha que me proporciona o melhor desempenho dentro d'água.",
   },
   {
     name: "Isak Lima",
@@ -28,14 +28,14 @@ export default function Testimonials({ id }: TestimonialsProps) {
   return (
     <section
       id={id}
-      className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden py-20 px-2 bg-white font-poppins"
+      className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden py-20 px-2 bg-gradient-to-r from-[#08678C] to-[#148BA6] font-poppins"
     >
       <div className="w-full max-w-6xl flex flex-col items-center">
         <div className="mb-12 w-full">
-          <h2 className="text-4xl font-pacifico font-extrabold text-center underline decoration-blue-400 decoration-2 underline-offset-8 mb-4">
+          <h2 className="text-4xl font-pacifico font-extrabold text-center text-[#F2BC57] underline decoration-[#D95032] decoration-2 underline-offset-8 mb-4">
             O Que Nossos Clientes Dizem
           </h2>
-          <p className="text-center font-poppins text-lg text-neutral-600 max-w-2xl mx-auto">
+          <p className="text-center font-poppins text-lg text-[#f5f5f5] max-w-2xl mx-auto">
             Experiências reais de surfistas que escolheram a Stamped by God
           </p>
         </div>
@@ -54,8 +54,8 @@ export default function Testimonials({ id }: TestimonialsProps) {
                       width="20"
                       height="20"
                       viewBox="0 0 24 24"
-                      fill="#0ea5e9"
-                      stroke="#0ea5e9"
+                      fill="#D95032"
+                      stroke="#F2BC57"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
