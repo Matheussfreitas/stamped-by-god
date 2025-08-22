@@ -7,17 +7,17 @@ export default function HeroCarousel() {
   // Imagens relacionadas ao surf e surfboards
   const images = [
     {
-      url: '/sacha-verheij-X0rRYtJy0R8-unsplash.jpg',
+      url: '/imagem1.jpg',
       title: 'Stamped by God',
       subtitle: 'Pranchas criadas para dominar as ondas',
     },
     {
-      url: '/miguel.jpeg',
+      url: '/imagem2.jpeg',
       title: 'Sua próxima onda te espera',
       subtitle: 'Maximize sua performance nas ondas',
     },
     {
-      url: '/joseph-greve-TII6axq3eo4-unsplash.jpg',
+      url: '/imagem3.jpg',
       title: 'Sinta a liberdade no mar',
       subtitle: 'Cada prancha é uma obra de arte única',
     },
@@ -155,7 +155,7 @@ export default function HeroCarousel() {
       {/* Progress Bar */}
       <div className="absolute bottom-0 left-0 w-full h-1 bg-white bg-opacity-20">
         <div
-          className="h-full bg-gradient-to-r from-blue-500 to-purple-600 transition-all duration-300 ease-out"
+          className="h-full bg-gradient-to-l from-[#D95032] to-[#F2BC57] transition-all duration-300 ease-out"
           style={{ width: `${((currentSlide + 1) / images.length) * 100}%` }}
         />
       </div>
