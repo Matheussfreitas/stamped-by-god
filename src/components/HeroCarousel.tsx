@@ -63,6 +63,7 @@ export default function HeroCarousel() {
               alt={image.title}
               className="absolute inset-0 w-full h-full object-cover"
               fill
+              priority
             />
 
             {/* Overlay */}
