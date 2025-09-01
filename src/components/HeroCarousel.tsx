@@ -7,17 +7,17 @@ export default function HeroCarousel() {
   // Imagens relacionadas ao surf e surfboards
   const images = [
     {
-      url: '/img2.jpeg',
+      url: '/img3.jpeg',
       title: 'Stamped by God',
       subtitle: 'Pranchas criadas para dominar as ondas',
     },
     {
-      url: '/img3.jpeg',
+      url: '/img1.jpeg',
       title: 'Sua próxima onda te espera',
       subtitle: 'Maximize sua performance nas ondas',
     },
     {
-      url: '/img1.jpeg',
+      url: '/img2.jpeg',
       title: 'Sinta a liberdade no mar',
       subtitle: 'Cada prancha é uma obra de arte única',
     },
