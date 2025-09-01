@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Pacifico, Poppins } from "next/font/google";
+import { Pacifico, Poppins, Original_Surfer } from "next/font/google";
 import "./globals.css";
 
 const poppins = Poppins({
@@ -12,6 +12,12 @@ const pacifico = Pacifico({
   weight: "400",
   subsets: ["latin"],
   variable: "--font-pacifico",
+});
+
+const surfer = Original_Surfer({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-original-surfer",
 });
 
 export const metadata: Metadata = {
@@ -27,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body
-        className={`${poppins.variable} ${pacifico.variable} antialiased`}
+        className={`${poppins.variable} ${pacifico.variable} ${surfer.variable} antialiased`}
       >
         {children}
       </body>

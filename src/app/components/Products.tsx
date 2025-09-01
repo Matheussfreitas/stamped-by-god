@@ -8,19 +8,19 @@ const produtos = [
   {
     id: 1,
     name: "Surfboards",
-    image: "/surfboard.jpeg",
+    image: "/quiver/quiver1.jpeg",
     description: "Pranchas de Surf de alta performance para todos os níveis.",
   },
   {
     id: 2,
     name: "Decks",
-    image: "/deck.avif",
+    image: "/quiver/quiver2.jpeg",
     description: "Decks antiderrapantes para maior controle e performance.",
   },
   {
     id: 3,
     name: "Quilhas",
-    image: "/quilhas.jpeg",
+    image: "/quiver/quiver3.jpeg",
     description: "Quilhas resistentes para máxima estabilidade.",
   },
 ]

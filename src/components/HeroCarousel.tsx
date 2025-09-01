@@ -7,17 +7,17 @@ export default function HeroCarousel() {
   // Imagens relacionadas ao surf e surfboards
   const images = [
     {
-      url: '/imagem1.jpg',
+      url: '/img2.jpeg',
       title: 'Stamped by God',
       subtitle: 'Pranchas criadas para dominar as ondas',
     },
     {
-      url: '/imagem2.jpeg',
+      url: '/img3.jpeg',
       title: 'Sua próxima onda te espera',
       subtitle: 'Maximize sua performance nas ondas',
     },
     {
-      url: '/imagem3.jpg',
+      url: '/img1.jpeg',
       title: 'Sinta a liberdade no mar',
       subtitle: 'Cada prancha é uma obra de arte única',
     },
@@ -72,9 +72,9 @@ export default function HeroCarousel() {
             {/* Content */}
             <div className="relative z-10 flex items-center justify-center h-full px-4">
               <div className="text-center text-white max-w-4xl mx-auto">
-                <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
+                <h1 className="text-4xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight">
                   <span
-                    className="block opacity-0 animate-fade-in-up text-[#D95032]"
+                    className="block opacity-0 animate-fade-in-up font-surfer text-[#D95032]"
                     style={{
                       animation:
                         currentSlide === index
@@ -85,9 +85,9 @@ export default function HeroCarousel() {
                     {image.title}
                   </span>
                 </h1>
-                <p className="text-xl md:text-2xl lg:text-3xl font-light mb-8 opacity-90">
+                <p className="text-xl md:text-3xl lg:text-4xl font-light mb-8 opacity-90">
                   <span
-                    className="block opacity-0 font-bold text-[#D95032]"
+                    className="block opacity-0 font-bold font-surfer text-[#D95032]"
                     style={{
                       animation:
                         currentSlide === index

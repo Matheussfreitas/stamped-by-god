@@ -1,4 +1,3 @@
-import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import Image from 'next/image';
 
@@ -19,7 +18,7 @@ export default function ProductCard({ name, image }: ProductCardProps) {
           sizes="(max-width: 400px) 100vw, 400px"
           priority={name === 'Surfboard'}
         />
-        <div className="absolute inset-0 flex flex-col items-center justify-center z-10 px-4 text-center">
+        {/* <div className="absolute inset-0 flex flex-col items-center justify-center z-10 px-4 text-center">
           <h2 className="text-2xl text-white font-bold drop-shadow mb-2">
             {name.toUpperCase()}
           </h2>
@@ -27,7 +26,7 @@ export default function ProductCard({ name, image }: ProductCardProps) {
           <Button className="mt-1 px-4 py-2 bg-[#D95032] text-[#F2BC57] rounded cursor-pointer">
             Ver mais
           </Button>
-        </div>
+        </div> */}
       </CardContent>
     </Card>
   );
